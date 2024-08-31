@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- 
+    Question 1
+
+
+    <title>Welcome Page</title>
+    <script src="script.js" defer></script>
+    <h1>Welcome to My Website</h1> -->
+
+
+
+    <!-- Question 2
+
+
+    <title>Display Message</title>
+    <script src="script.js" defer></script>
+    <h1>JavaScript Alert</h1>
+    <p id="message"></p> -->
+
+
+    
+    <!-- Question 3
+
+
+    <title>Display Message</title>
+    <script>
+        // Define the message with line breaks
+        var message = "Welcome to JS Land...\n\nHappy Coding!";
+
+        // Create a paragraph element
+        var paragraph = document.createElement("p");
+
+        // Replace line breaks with HTML line break elements
+        paragraph.innerHTML = message.replace(/\n/g, "<br>");
+
+        // Append the paragraph to the body of the document
+        document.body.appendChild(paragraph);
+    </script> -->
+
+
+    <!-- Question 6
+
+
+    <title>Alert Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+    <h1>Welcome to Our Website</h1>
+    <button onclick="showAlert()">Click Me</button>
+
+    <script>
+        function showAlert() {
+            alert("Hello! This is an alert message.");
+        }
+    </script> -->
+
+<!-- 
+    Question 7
+
+    <title>Script in Head</title>
+    <script>
+        function showAlert() {
+            alert("Script in Head");
+        }
+    </script>
+    <button onclick="showAlert()">Click Me</button> -->
+
+
+    <!-- <title>Script at Beginning of Body</title>
+    <script>
+        function showAlert() {
+            alert("before your page’s HTML");
+        }
+    </script>
+    <button onclick="showAlert()">Click Me</button> -->
+
+
+    <!-- <title>Script Inside Body</title>
+    <button onclick="showAlert()">Click Me</button>
+    <script>
+        function showAlert() {
+            alert("inside your page’s HTML");
+        }
+    </script> -->
+
+
+<title>Script at End of Body</title>
+    <button onclick="showAlert()">Click Me</button>
+    <script>
+        function showAlert() {
+            alert("after your page’s HTML");
+        }
+    </script>
+
+</body>
+</html>
